@@ -21,6 +21,24 @@ h2 {
 	font-style: bold;
 }
 
+@media only screen and (max-width: 768px) {
+  h2 {
+    font-size: 2.0em;
+  }
+  body {    
+	font-size: 1.0em;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  h2 {
+    font-size: 1.8em;
+  }
+  body {    
+	font-size: 0.8em;
+  }
+}
+
 body {
     font-family: 'Voltaire', sans-serif;
 }
