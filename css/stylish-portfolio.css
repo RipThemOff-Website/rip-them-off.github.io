@@ -3,42 +3,7 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-
-#mailchimp {
-    color: #3D6392;
-    padding: 20px 15px;
-}
-
-    #mailchimp input {
-        border: medium none;
-        /*color: gray;
-        font-family: times new roman;
-        font-size: 16px;
-        font-style: italic;*/
-        margin-bottom: 10px;
-        padding: 8px 10px;
-        width: 300px;
-        border-radius: 20px;
-        -moz-border-radius: 20px;
-        -webkit-border-radius: 20px;
-    }
-
-        #mailchimp input.email {
-            background: #fff
-        }
-
-/*#mailchimp input[type="submit"] {
-            background: #115B87;
-            color: #fff;
-            cursor: pointer;
-            font-size: 15px;
-            width: 35%;
-            padding: 8px 0;
-        }
-
-            #mailchimp input[type="submit"]:hover {
-                color: #F2C94C
-            }*/
+ 
 
 html,
 body {
@@ -46,10 +11,22 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
+	background-color: black;
+	color: white;
+	font-size: 1.25em;
+}
+
+h2 {
+	font-size: 3.0em;
+	font-style: bold;
 }
 
 body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Voltaire', sans-serif;
+}
+
+a {
+	color: #F59BAF;
 }
 
 .text-vertical-center {
@@ -128,7 +105,7 @@ hr.small {
         .sidebar-nav li a {
             display: block;
             text-decoration: none;
-            color: #999;
+            color: #fff;
         }
 
             .sidebar-nav li a:hover {
@@ -144,16 +121,16 @@ hr.small {
 
     .sidebar-nav > .sidebar-brand {
         height: 55px;
-        font-size: 18px;
+        font-size: 28px;
         line-height: 55px;
     }
 
         .sidebar-nav > .sidebar-brand a {
-            color: #999;
+            color: #fff;
         }
 
             .sidebar-nav > .sidebar-brand a:hover {
-                color: #fff;
+                color: #999;
                 background: none;
             }
 
@@ -179,14 +156,13 @@ hr.small {
 }
 
 #header {
-    /*background-image: url(../img/title.jpg);
+    background-image: url(../img/RipThemOff-KeyArt.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
     width: 100%;
     padding-bottom: 50%;
-	*/
 }
 
 #header-content {
@@ -217,42 +193,9 @@ hr.small {
 .about {
     padding: 50px 0;
 }
-
-.services {
-    padding: 50px 0;
-}
-
-.service-item {
-    margin-bottom: 30px;
-}
-
-/*.callout {
-    display: table;
-    width: 100%;
-    height: 400px;
-    color: #fff;
-    background: url(../img/steam-greenlight-bg.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}*/
-
-.portfolio {
-    padding: 50px 0;
-}
-
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
 .img-portfolio {
     margin: 0 auto;
 }
-
-/* .img-portfolio:hover {
-        opacity: 0.8;
-    } */
 
 .call-to-action {
     padding: 50px 0;
@@ -262,23 +205,6 @@ hr.small {
         margin: 10px;
     }
 
-.map {
-    height: 500px;
-}
-
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
-}
-
-.map iframe {
-    pointer-events: none;
-}
-
-footer {
-    padding: 100px 0;
-}
 
 #to-top {
     display: none;
